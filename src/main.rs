@@ -20,7 +20,7 @@ fn setup_custom_fonts(ctx: &egui::Context) {
 
     fonts.font_data.insert(
         "noto_sans_jp".to_owned(),
-        egui::FontData::from_static(include_bytes!("../fonts/NotoSansCJKjp-Thin.ttf")).into(),
+        egui::FontData::from_static(include_bytes!("../assets/fonts/NotoSansCJKjp-Thin.ttf")).into(),
     );
 
     fonts
